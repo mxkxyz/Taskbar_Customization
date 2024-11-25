@@ -1,0 +1,17 @@
+@echo off
+:: Enable Transparency Effects
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v EnableTransparency /t REG_DWORD /d 1 /f
+
+:: Set the taskbar to black (Dark Mode)
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 0 /f
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f
+
+:: Enable OLED Taskbar Transparency (more refined effect)
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v UseOLEDTaskbarTransparency /t REG_DWORD /d 1 /f
+
+:: Restart Explorer to apply changes
+taskkill /f /im explorer.exe && start explorer.exe
+
+:: End of script
+echo Taskbar transparency and color changes applied successfully!
+pause
