@@ -4,7 +4,7 @@
 To CUSTOMIZE youre TASKBAR/WINDOWS THEME via CMD terminal, in this case,
 MAKE your TASKBAR / windows scheme transparent and black ##
 
-![taskbarCMDcode](https://github.com/user-attachments/assets/2f346f50-c34e-4996-9f74-9d157022efb8)
+
 
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
@@ -15,9 +15,11 @@ MAKE your TASKBAR / windows scheme transparent and black ##
  Open CMD TERMINAL/Search CMD 
                              OR...
                                   (Press `Win + R` , type CMD, hit enter)
-                                  
-![CMDHOTKEY](https://github.com/user-attachments/assets/40450de9-7e77-447b-aa08-b2422343978e)
 
+                                  
+##                                  
+![CMDHOTKEY](https://github.com/user-attachments/assets/40450de9-7e77-447b-aa08-b2422343978e)
+##
 
   ENTER THESE commands in CMD:                 [ copy paste into You're terminal ] 
   
@@ -51,5 +53,6 @@ MAKE your TASKBAR / windows scheme transparent and black ##
 
           NEWKXYZ          // kxyznew@gmail.com           
         N0t5uR3C$AW        // notsureCsaw@gmail.com 
+![taskbarCMDcode](https://github.com/user-attachments/assets/2f346f50-c34e-4996-9f74-9d157022efb8)
            
                                      
