@@ -30,6 +30,11 @@ MAKE your TASKBAR / windows scheme transparent and black ##
 
     taskkill /f /im explorer.exe && start explorer.exe
 
+ ##
+    
+![CLICKOK](https://github.com/user-attachments/assets/cf85c460-e211-4705-85cf-3bfdbe49943c)
+
+##
   
    ##  This next part of code will Make the Taskbar Black:
    
@@ -38,7 +43,9 @@ MAKE your TASKBAR / windows scheme transparent and black ##
     reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 0 /f
     reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f
     taskkill /f /im explorer.exe && start explorer.exe
-
+##
+![FIRSTPART](https://github.com/user-attachments/assets/94be6b96-101b-4444-8ecb-5828be1674b5)
+##
 
   ##  This part of code will Enable transparency:
   
